@@ -18,4 +18,7 @@ To add more standards/reference, please create an issue.
 
 ## License
 
-MIT.
+This document are licensed as [MIT](./LICENSE) except for repo archive.
+
+Repo archive are copied source of the original rule with intention of keeping
+track of things.
