@@ -34,7 +34,7 @@ body:
       required: false
 
   - type: textarea
-    id: sources
+    id: general-description
     attributes:
       label: General description of the standard
       description: |
