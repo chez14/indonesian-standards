@@ -1,0 +1,79 @@
+name: Request to Add Standards
+description: Do you have any standards you want us to port it to here too? Use this template to request.
+title: "[Request]: "
+labels:
+  - "type::request"
+
+body:
+  - type: input
+    id: standard-name
+    attributes:
+      label: Friendly name of the standards
+      description: "Usually abbreviated terms like NIK KTP, or any simplified name of this standard"
+      placeholder: "NIK KTP"
+    validations:
+      required: true
+  
+  - type: input
+    id: standard-issuer
+    attributes:
+      label: Issuer
+      description: Who's issuing this standards?
+      placeholder: "Pemerintah Pusat"
+    validations:
+      required: true
+
+  - type: input
+    id: standard-known-terms
+    attributes:
+      label: Other known terms for reference
+      description: |
+        Some website or person usually use this term to refer this standards in
+        various places, such as website, rules, and documents.
+    validations:
+      required: false
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: General description of the standard
+      description: |
+        Let us know what standard this reference for? What's its intended use
+        case? or... what this standard does?
+
+        General rule for this part are: Explain it like I'm five years old.
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: "Original Links for Standards"
+      description: |
+        Please include links to the published rules or verifyable sources.
+        Usually any links with domain that ends with .go.id are trustable.
+    validations:
+      required: false
+
+  - type: textarea
+    id: known-exception
+    attributes:
+      label: Known exception or problems with current standard
+      description: |
+        Since standards usually updates and several division of goverment uses
+        other vendor, there are some exceptions or anomalies to this standards.
+
+        Please don't forget to add several links mentioning the problem as well.
+    validations:
+      required: false
+
+  - type: textarea
+    id: related-projects
+    attributes:
+      label: Projects that showcase or make use of this standards
+      description: |
+        Some standards may be a data tables, and some are verifier. Since just
+        documentating a standard is not really helpful, we're trying to showcase
+        several projects that demonstrate this standards to make things clear.
+    validations:
+      required: false
