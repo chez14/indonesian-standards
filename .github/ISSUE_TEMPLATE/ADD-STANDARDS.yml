@@ -9,8 +9,12 @@ body:
     id: standard-name
     attributes:
       label: Friendly name of the standards
-      description: "Usually abbreviated terms like NIK KTP, or any simplified name of this standard"
-      placeholder: "NIK KTP"
+      description: |
+        Usually abbreviated terms like NIK KTP, or any simplified name of this
+        standards.
+
+        This term should be generally known, or widely used terms.
+      placeholder: "e.g NIK KTP"
     validations:
       required: true
   
@@ -19,7 +23,7 @@ body:
     attributes:
       label: Issuer
       description: Who's issuing this standards?
-      placeholder: "Pemerintah Pusat"
+      placeholder: "e.g Pemerintah Pusat"
     validations:
       required: true
 
@@ -27,6 +31,7 @@ body:
     id: standard-known-terms
     attributes:
       label: Other known terms for reference
+      placeholder: "e.g Nomor KTP, Nomor NIK, NIK, Govt. ID Number"
       description: |
         Some website or person usually use this term to refer this standards in
         various places, such as website, rules, and documents.
@@ -42,6 +47,11 @@ body:
         case? or... what this standard does?
 
         General rule for this part are: Explain it like I'm five years old.
+      placeholder: |
+        e.g NIK KTP is known standard to define the ID of Indonesian
+        Govt.-issued IDs. The standard describes how to form the number based on
+        various thing such as where it is issued, date of birth, and sex of the
+        holder.
     validations:
       required: true
 
@@ -53,15 +63,16 @@ body:
         Please include links to the published rules or verifyable sources.
         Usually any links with domain that ends with .go.id are trustable.
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: known-exception
     attributes:
       label: Known exception or problems with current standard
       description: |
-        Since standards usually updates and several division of goverment uses
-        other vendor, there are some exceptions or anomalies to this standards.
+        Since standards usually get updated and several division of goverment
+        uses differnet vendor, there will be some exceptions or anomalies to
+        this standards.
 
         Please don't forget to add several links mentioning the problem as well.
     validations:
@@ -72,8 +83,9 @@ body:
     attributes:
       label: Projects that showcase or make use of this standards
       description: |
-        Some standards may be a data tables, and some are verifier. Since just
-        documentating a standard is not really helpful, we're trying to showcase
-        several projects that demonstrate this standards to make things clear.
+        Some standards may be a data tables, and some are definition of
+        numbering. Since documentating just the standard is not really helpful,
+        we're trying to showcase several projects that demonstrate this
+        standards to make things clear.
     validations:
       required: false
