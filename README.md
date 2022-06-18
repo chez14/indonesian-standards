@@ -8,8 +8,8 @@ To add more standards/reference, please create an issue.
 
 | Name                                           | Issued Document Media                | Current Living Reference | Docs |
 | ---------------------------------------------- | ------------------------------------ | ------------------------ | ---- |
-| Kode Daerah (*Regional Codes*)                 | *none*                               | Permendagri Nomor 58 Tahun 2021 | [1-regional-codes](./1-docs/1-regional-codes/) |
-| Nomor Induk KTP (NIK) (*ID Number*)            | Card                                 | PP Nomor 40 Tahun 2019 | [2-ktp](./2-ktp/) |
+| Kode Daerah (*Regional Codes*)                 | *none*                               | Permendagri Nomor 58 Tahun 2021 | [1-regional-codes](./docs/1-regional-codes/) |
+| Nomor Induk KTP (NIK) (*ID Number*)            | Card                                 | PP Nomor 40 Tahun 2019 | [2-ktp](./docs/2-ktp/) |
 | Nomor Induk KK (NIK KK) (*Family Card Number*) | Letter                               |                          |      |
 | Nomor NPWP (*Tax ID Number*)                   | Card, Electronic (Email & Account)   |                          |      |
 | Nomor Plat Polisi (*Vehicle Plate*)            | Metal Plate, Letter of Registrations |                          |      |
