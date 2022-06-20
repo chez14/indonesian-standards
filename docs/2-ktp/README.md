@@ -14,19 +14,20 @@ NIK are a 16-digit number that doesn't have any separator. Those number consists
 with following components:
 
 - First 6 digits are called as *kode wilayah* (Regional Codes). \
-  This notes where the KTP issued from. The standard of this code can be checked on
+  This notes where the ID issued from. The standard of this code can be checked on
   [`01-regional-codes`](./../1-regional-codes/).
 
-- Next 6 digits are date of birth with date notes the sex of the ID holder. \
-  DoB Format are: `YYMMDD` with following details:
-  - `YY` is the last 2 digits of birth year. \
-    i.e 19**98** = 98; 20**44** = 44.
+- Next 6 digits are date of birth with date of month section also notes the sex
+  of the ID holder. \
+  DoB Format are: `DDMMYY` with following details:
+  - `DD` is the date of month from the birth date, and add 40 if the holder's sex is female. \
+    i.e Killua's birth date is 7th July 1987, the DoB section of the NIK will
+    be 070787. Mariya's birth date is 25th September 1988, so the DoB section
+    will be **65**0988 (25 + 40 = 65).
   - `MM` is the month of the birth date, padded with zero for month before October. \
     i.e 03 for March, 01 for January, 10 for October, etc.
-  - `DD` is the day of month from the birth date, and add 40 if the holder's sex is female. \
-    i.e Killua Zoldyck's birth date is 7th July 1987, the DoB section of the NIK will
-    be 870707. Mariya's birth date is 25th September 1988, so the DoB section
-    will be 8809**65** (25 + 40 = 65).
+  - `YY` is the last 2 digits of birth year. \
+    i.e 19**98** = 98; 20**44** = 44.
 
 - Next 4 digits are actual unique identifier for each holder, consisting of 4
   digits of number.
