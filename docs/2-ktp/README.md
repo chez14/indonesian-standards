@@ -33,8 +33,8 @@ with following components:
   digits of number.
 
 As noted from the reference, this number cannot be updated or changed while the
-holder still alive as a human being even if the data being updated. However,
-there's no details on how the NIK expire even if the holder is no longer alive.
+holder still alive as a human being even if the data being updated or the holder
+moves to another region[^1].
 
 ## Known Exceptions/Bugs/Etc
 
@@ -88,3 +88,6 @@ Sipil (Citizenship and Civil Service).
     Link](https://web.archive.org/web/*/https://peraturan.bpk.go.id/Home/Details/4759/pp-no-37-tahun-2007))
   - Repo Archive: \
     [PP 37 Tahun 2007](archives/PP%2037%20Tahun%202007.pdf)
+
+
+[^1]: https://dukcapil.kemendagri.go.id/berita/baca/580/dirjen-dukcapil-jelaskan-beda-fungsi-nik-dan-nomor-kk
