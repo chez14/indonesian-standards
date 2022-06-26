@@ -38,9 +38,22 @@ there's no details on how the NIK expire even if the holder is no longer alive.
 
 ## Known Exceptions/Bugs/Etc
 
-[@chez14](https://github.com/chez14) has seen some of his friends that have 15
-digits NIK. We don't actually know how often this exception occurs, but bear in
-mind that this may happens.
+### Anomalies: 15 Digits Instead of The Standard 16 Digits
+There's known 15 digit format generated from older SIAK (short for *Sistem
+Informasi Administrasi Kependudukan*, translated as Information System for
+Citizen Administration). As Indonesian Goverment tries to migrate to eKTP (from
+KTP), this migration will invalidate the older 15 digits NIK.
+
+**Fix:**\
+Holder may request the NIK update by contacting holder's local Dinas Kependudukan dan
+Sipil (Citizenship and Civil Service).
+
+
+**References:**
+- https://www.republika.co.id/berita/lpa7nt/september-785-ribu-warga-tangsel-dapat-nik-baru
+- https://jateng.tribunnews.com/2016/11/14/nomor-kk-standarnya-16-digit-bagaimana-jika-ditemukan-hanya-10-angka-ini-fakta-di-dps-salatiga
+- https://radartulungagung.jawapos.com/berita-daerah/trenggalek/13/09/2018/awas-nik-tak-valid
+
 
 ## Current Living Standard
 - **Peraturan Pemerintah (PP) tentang Pelaksanaan Undang-undang Nomor 23 Tahun
