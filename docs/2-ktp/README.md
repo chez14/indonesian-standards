@@ -6,7 +6,8 @@
 - Known keywords: \
   NIK, KTP, NIK KTP, Govt-issued ID.
 - Issuer: \
-  [Ministry of Home Affairs](http://www.kemendagri.go.id/)
+  [Kementrian Dalam Negri (Kemendagri) \
+  *Ministry of Home Affairs*](http://www.kemendagri.go.id/)
 
 # Standard
 
@@ -61,7 +62,10 @@ Sipil (Citizenship and Civil Service).
   Undang-undang Nomor 24 Tahun 2013 tentang Perubahan atas Undang-undang Nomor
   23 Tahun 2006 tentang Administrasi Kependudukan** \
   References:
-  - Original link: \
+  - Peraturan.go.id Link: \
+    https://peraturan.go.id/peraturan/view.html?id=c2c53bc5111538f6ac554a649d3c5027 \
+    ([Wayback Machine](https://web.archive.org/web/*/https://peraturan.go.id/peraturan/view.html?id=c2c53bc5111538f6ac554a649d3c5027))
+  - BPK (Audit Board of the Republic of Indonesia) link: \
     https://peraturan.bpk.go.id/Home/Details/108801/pp-no-40-tahun-2019 \
     ([Wayback Machine](https://web.archive.org/web/2021*/https://peraturan.bpk.go.id/Home/Details/108801/pp-no-40-tahun-2019))
   - Repo Archive: \
@@ -72,7 +76,10 @@ Sipil (Citizenship and Civil Service).
   Tahun 2007 Tentang Pelaksanaan Undang Undang Nomor 23 Tahun 2006 Tentang
   Administrasi Kependudukan** \
   References:
-  - Original link: \
+  - Peraturan.go.id Link: \
+    https://peraturan.go.id/peraturan/view.html?id=11e44c4f71705be0a034313232313231
+    ([Wayback Machine](https://web.archive.org/web/*/https://peraturan.go.id/peraturan/view.html?id=11e44c4f71705be0a034313232313231))
+  - BPK (Audit Board of the Republic of Indonesia) link: \
     https://peraturan.bpk.go.id/Home/Details/5317/pp-no-102-tahun-2012 \
     ([Wayback Machine
     Link](https://web.archive.org/web/*/https://peraturan.bpk.go.id/Home/Details/5317/pp-no-102-tahun-2012))
@@ -82,7 +89,10 @@ Sipil (Citizenship and Civil Service).
 - **Peraturan Pemerintah (PP) tentang Pelaksanaan Undang Undang Nomor 23 Tahun
   2006 Tentang Administrasi Kependudukan** \
   References:
-  - Original link: \
+  - Peraturan.go.id Link: \
+    https://peraturan.go.id/peraturan/view.html?id=11e44c4f066ca940aa6e313231383232
+    ([Wayback Machine](https://web.archive.org/web/*/https://peraturan.go.id/peraturan/view.html?id=11e44c4f066ca940aa6e313231383232))
+  - BPK (Audit Board of the Republic of Indonesia) link: \
     https://peraturan.bpk.go.id/Home/Details/4759/pp-no-37-tahun-2007 \
     ([Wayback Machine
     Link](https://web.archive.org/web/*/https://peraturan.bpk.go.id/Home/Details/4759/pp-no-37-tahun-2007))
