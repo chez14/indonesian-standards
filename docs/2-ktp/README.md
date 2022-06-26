@@ -33,8 +33,7 @@ with following components:
 - Next 4 digits are actual unique identifier for each holder, consisting of 4
   digits of number.
 
-As noted from the reference, this number cannot be updated or changed while the
-holder still alive as a human being even if the data being updated or the holder
+NIK number cannot be updated or changed if the data being updated or the holder
 moves to another region[^1].
 
 ## Known Exceptions/Bugs/Etc
